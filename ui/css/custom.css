@@ -22,7 +22,7 @@ body {
     margin-right:-4px;
 }
 .donate-form {
-		font-family: "Josefin Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+		font-family: Helvetica,Arial,sans-serif;
 	color:	#FFFFFF;
 	font-size: 20px;
 	padding-top: 5px;
@@ -42,19 +42,19 @@ input{
 		font-family: Arial;
 }
 @font-face {
-	font-family: Androgyne;
-	src: url(../fonts/Androgyne_TB.otf);
+	font-family: "Gotham";
+	src: url(../fonts/Gotham-Black.otf);
 }
 h2 {
-	font-family: Androgyne;
+	font-family: "Gotham";
 	font-size: 36px;
 }
 
 
 /* NavBar Style Bootstrap Override */
 .navbar-inverse {
-	background-color: #04285a;
-	font-family: "Josefin Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+	background-color: #c1a833;
+	font-family: Helvetica,Arial,sans-serif;
 	border-color: #ffffff;
 }
 .navbar-inverse a {
@@ -76,13 +76,13 @@ h2 {
 }
 .navbar-inverse .navbar-nav > li > a:hover,
 .navbar-inverse .navbar-nav > li > a:focus {
-  color: #85ccbe;
+  color: #ee5b29;
   background-color: transparent;
 }
 
 .navbar-inverse .navbar-nav > .active > a,
 .navbar-inverse .navbar-nav > .active > a:hover,
 .navbar-inverse .navbar-nav > .active > a:focus {
-  color: #85ccbe;
+  color: #ee5b29;
   background-color: transparent;
 }
